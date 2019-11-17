@@ -1,0 +1,21 @@
+{
+  "name": "reduktor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "author": "Diana Cherkashina",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.2",
+    "sass": "^1.23.6",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

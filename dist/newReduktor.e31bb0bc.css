@@ -1,0 +1,302 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DidactGothic";
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(/Cinzel-Bold.bd4c98ff.ttf);
+  src: url(/Cinzel-Regular.c098b09a.ttf);
+}
+@font-face {
+  font-family: DidactGothic;
+  src: url(/DidactGothic.b8d91ab7.ttf);
+}
+@font-face {
+  font-family: Glyphicons;
+  src: url(/glyphicons-halflings-regular.13c00c30.eot);
+  src: url(/glyphicons-halflings-regular.3b67220a.svg);
+  src: url(/glyphicons-halflings-regular.4c7f0b0b.ttf);
+  src: url(/glyphicons-halflings-regular.8e54cb08.woff);
+  src: url(/glyphicons-halflings-regular.d1cf4ab4.woff2);
+}
+header[data-v-50208a] {
+  height: 25vh;
+}
+.container[data-v-50208a] {
+  display: flex;
+  justify-content: space-between;
+}
+img[data-v-50208a]{
+  color:white;
+  height:30px
+}
+.logo[data-v-50208a]{
+  background:
+}
+.logo a[data-v-50208a] {
+  background: #00bce4;
+  width: 240px;
+  height: 204px;
+  display: block;
+  text-align: center;
+  padding: 1.7em 0 0;
+  font-size:24px;
+  color: white;
+}
+.top-nav ul[data-v-50208a] {
+  display: flex;
+}
+.top-nav ul li a[data-v-50208a] {
+  font-size: 1.2em;
+  display: block;
+  padding: 1.6em 1em;
+  text-align: center;
+  color: #00bce4
+}
+.top-nav ul li.active a[data-v-50208a] {
+  background: #00bce4;
+} /*не присвоен класс*/
+.top-nav span.menu[data-v-50208a] {
+  display: none;
+}
+.hvr-sweep-to-bottom[data-v-50208a] {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  position: relative;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-bottom[data-v-50208a]:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00bce4;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-bottom[data-v-50208a]:hover,
+.hvr-sweep-to-bottom[data-v-50208a]:focus,
+.hvr-sweep-to-bottom[data-v-50208a]:active {
+  color: white;
+}
+.hvr-sweep-to-bottom[data-v-50208a]:hover:before,
+.hvr-sweep-to-bottom[data-v-50208a]:focus:before,
+.hvr-sweep-to-bottom[data-v-50208a]:active:before {
+  transform: scaleY(1);
+}
+footer[data-v-303073] {
+  height: 20vh;
+  background: #00bce4;
+}
+.container[data-v-303073] {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text[data-v-303073]{
+  margin-right: 10px;
+}
+img[data-v-303073] {
+  display: block;
+  margin-left: 70px;
+}
+p[data-v-303073], small[data-v-303073] {
+  color: #fff;
+  line-height: 2em;
+}
+small[data-v-303073] {font-size: 0.8em;}
+.container[data-v-21ac05] {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.col[data-v-21ac05] {
+  width: 33%;
+  margin-right: 1%;
+  min-height: 350px;
+  padding: 20px 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col[data-v-21ac05]:last-child {
+  margin-right: 0;
+}
+/*.col:first-child,
+.col:last-child {
+  background: url(/img/top2.png);
+}
+.col:nth-child(2) {
+  background: url(/img/top1.png);
+}*/
+.col .icon[data-v-21ac05] {
+  font-size: 60px;
+  color: #00bce4;
+  border: dotted 2px #00bce4;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.content1[data-v-2d2fca]{
+  background: url() no-repeat;
+  background-size: cover;
+  height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1[data-v-2d2fca]{
+    font-family: 'Tomorrow', sans-serif;
+    padding:20px;  
+    font-size:40px;
+    text-align: center;
+    color:navy;
+}
+img[data-v-2d2fca]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    max-width: 80%;
+height: auto;
+}
+.bold[data-v-2d2fca]{
+      font-weight:700
+}
+.content2[data-v-be94d0] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px
+}
+p[data-v-be94d0]{
+    font-family: 'Tomorrow', sans-serif;
+    font-style: italic;
+    padding:20px;  
+    font-size:24px;
+    text-align: center;
+}
+.bold[data-v-be94d0]{
+      font-weight:700
+}
+.content[data-v-5db0cb] {
+    align-items: center;
+    padding: 30px
+}
+h1[data-v-5db0cb]{
+    font-size:30px;
+    font-family: 'Tomorrow', sans-serif;
+    font-style: bold;
+}
+p[data-v-5db0cb]{
+    font-family: 'Tomorrow', sans-serif;
+    font-style: italic;
+    padding:10px;
+}
+img[data-v-5db0cb]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    max-width: 100%;
+height: auto;
+}
+.content2[data-v-3c8fc8] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+img[data-v-3c8fc8]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+p[data-v-3c8fc8]{
+    font-family: 'Tomorrow', sans-serif;
+    font-style: italic;
+    padding:20px;  
+    font-size:24px;
+    text-align: center;
+    color:navy;
+}
+.bold[data-v-3c8fc8]{
+      font-weight:700
+}
+
+/*# sourceMappingURL=/newReduktor.e31bb0bc.css.map */
